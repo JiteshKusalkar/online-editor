@@ -11,7 +11,7 @@ const getDirectoryTree = (directory, toggle, open) => {
 		if (content.type === 'folder') {
 			return (
 				<div key={contentKey} >
-					<i className="fa fa-folder-o" aria-hidden="true"></i><span onClick={() => toggle(content)} className="folder">{content.name}</span>
+					<i className={`fa ${content.expand ? 'fa-folder-open-o' : 'fa-folder-o'}`} aria-hidden="true"></i><span onClick={() => toggle(content)} className="folder">{content.name}</span>
 					{content.children && content.children.length && content.expand ?
 						<ul>
 							{getDirectoryTree(content.children, toggle, open)}

@@ -1,0 +1,37 @@
+.tabs {
+    height: 100%;
+    border: 1px solid var(--blue);
+
+    &-active-content {
+        padding: 10px;
+    }
+}
+
+.tabs-nav {
+    margin: 0;
+    padding: 0;
+    background-color: var(--light);
+}
+
+.tab {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px 10px 0;
+    width: 100px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+
+    &.active {
+        border-bottom: 1px solid var(--purple);
+    }
+}
+
+.fa-times {
+    float: right;
+    position: relative;
+    top: 3px;
+}
