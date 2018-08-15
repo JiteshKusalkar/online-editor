@@ -1,0 +1,27 @@
+.directory {
+    font-size: 12px;
+
+    ul {
+        padding-left: 10px;
+
+        li {
+            list-style: none;
+        }
+    }
+
+    .fa {
+        margin-right: 5px;
+        display: inline;
+    }
+
+    .fa-folder-o, .folder {
+        font-weight: 600;
+        color: var(--cyan);
+        cursor: pointer;
+    }
+
+    .fa-file-code-o, .file {
+        color: var(--purple);
+        cursor: pointer;
+    }
+}

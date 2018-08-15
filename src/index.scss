@@ -1,0 +1,16 @@
+@import '~bootstrap/scss/bootstrap';
+@import '~font-awesome/css/font-awesome.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.file-view-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: calc(100% - 250px);
+}

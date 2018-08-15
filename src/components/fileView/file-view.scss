@@ -1,0 +1,13 @@
+.file-editor {
+    width: 100%;
+    height: 100%;
+    outline: none;
+
+    .code-line-number {
+        padding: 0 30px;
+    }
+
+    .code-content {
+        display: inline;
+    }
+}

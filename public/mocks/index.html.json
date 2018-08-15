@@ -1,0 +1,25 @@
+[{
+    "line": "0",
+    "code": "<html>"
+}, {
+    "line": "1",
+    "code": "    <head>"
+}, {
+    "line": "2",
+    "code": "        <script src=\"script.js\" type=\"text/javscript\"></script>"
+}, {
+    "line": "3",
+    "code": "    </head>"
+}, {
+    "line": "4",
+    "code": "    <body>"
+}, {
+    "line": "5",
+    "code": "        <p>This is body content</p>"
+}, {
+    "line": "6",
+    "code": "    <body>"
+}, {
+    "line": "7",
+    "code": "</html>"
+}]
